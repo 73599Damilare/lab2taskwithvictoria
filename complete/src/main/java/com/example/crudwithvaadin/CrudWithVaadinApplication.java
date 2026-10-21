@@ -22,7 +22,7 @@ public class CrudWithVaadinApplication {
 		return (args) -> {
 			// save a couple of customers
 			repository.save(new Customer("Damilare", "Oyefara"));
-			repository.save(new Customer("Chloe", "O'Brian"));
+			repository.save(new Customer("Victoria", "Macpepple"));
 			repository.save(new Customer("Kim", "Bauer"));
 			repository.save(new Customer("David", "Palmer"));
 			repository.save(new Customer("Michelle", "Dessler"));
